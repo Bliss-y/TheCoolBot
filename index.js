@@ -32,7 +32,6 @@ client.on('message', message=>{
 		client.commands.get('hi').execute(message, args);
 	}
 	else if(command === 'help') {
-		const cmds = client.commands.name;
 		return message.reply('all the commands currently: ');
 	}
 	else if(command === 'info') {
